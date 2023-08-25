@@ -140,7 +140,7 @@
         <element id="ClinicalDocument.recordTarget.patientRole.providerOrganization">
             <path value="ClinicalDocument.recordTarget.patientRole.providerOrganization"/>
             <label value="If present, this organization represents the provider organization where the person is claiming to be a patient."/>
-            <short value="If present, this organization represents the provider organization where the person is claiming to be a patient.&#xA;&#xA;undefined"/>
+            <short value="If present, this organization represents the provider organization where the person is claiming to be a patient."/>
             <requirements value="This patientRole MAY contain zero or one [0..1] providerOrganization (CONF:1198-28476)."/>
             <min value="0"/>
             <max value="1"/>

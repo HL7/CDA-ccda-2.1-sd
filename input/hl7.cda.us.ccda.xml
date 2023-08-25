@@ -493,6 +493,16 @@
         </resource>
         <resource>
             <reference>
+                <reference value="StructureDefinition/2.16.840.1.113883.10.20.6.1.1"/>
+                <display value="DICOM Object Catalog Section - DCM 121181"/>
+            </reference>
+            <name value="DICOM Object Catalog Section - DCM 121181"/>
+            <description value="DICOM Object Catalog lists all referenced objects and their parent Series and Studies, plus other DICOM attributes required for retrieving the objects.&#xD;&#xA;&#xD;&#xA;DICOM Object Catalog sections are not intended for viewing and contain empty section text."/>
+            <exampleBoolean value="false"/>
+            <groupingId value="section"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="StructureDefinition/2.16.840.1.113883.10.20.22.4.60"/>
                 <display value="Coverage Activity"/>
             </reference>
@@ -560,16 +570,6 @@
             <description value="A Diagnostic Imaging Report (DIR) is a document that contains a consulting specialist's interpretation of image data. It conveys the interpretation to the referring (ordering) physician and becomes part of the patient's medical record. It is for use in Radiology, Endoscopy, Cardiology, and other imaging specialties."/>
             <exampleBoolean value="false"/>
             <groupingId value="document"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/2.16.840.1.113883.10.20.6.1.1"/>
-                <display value="DICOM Object Catalog Section - DCM 121181"/>
-            </reference>
-            <name value="DICOM Object Catalog Section - DCM 121181"/>
-            <description value="DICOM Object Catalog lists all referenced objects and their parent Series and Studies, plus other DICOM attributes required for retrieving the objects.&#xD;&#xA;&#xD;&#xA;DICOM Object Catalog sections are not intended for viewing and contain empty section text."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="entry"/>
         </resource>
         <resource>
             <reference>
